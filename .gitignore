@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch model files
+*.pt
+*.pth
+*.ckpt
+
+# Logs and outputs
+*.log
+*.out
+*.tensorboard/
+*.event*
+checkpoints/
+runs/
+output/
+logs/
+
+# Dataset-related
+*.zip
+*.tar.gz
+*.h5
+*.npz
+*.npy
+ml_data/
+
+# Images / predictions / temp results
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.bak
+*.tmp
+*.swp
