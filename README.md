@@ -1,6 +1,6 @@
 # Generative Attack in Complex Real-World Scenarios
 
-This repository provides a **PyTorch** implementation of the paper:
+This repository provides the **official source code** of the paper:
 
 **"Generative Attack in Complex Real-World Scenarios"**  
 Hongyu Peng, Gong Cheng, Xuxiang Sun  
