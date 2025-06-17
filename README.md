@@ -7,6 +7,23 @@ Hongyu Peng, Gong Cheng, Xuxiang Sun
 Published in *Pattern Recognition*, 2025  
 📄 [[Paper on ScienceDirect](https://doi.org/10.1016/j.patcog.2025.111893)]
 
+## 🚀 Usage
+
+1. Download the two folders from [here](https://drive.google.com/drive/folders/1pmsNESi4ofKGJw19yPZNHeRx9aGxxNUg?usp=sharing) and place them in ```classifer_models``` folders.
+2. Install the packages listed in ```requirements.txt```. Creating a conda environment is recommended.
+3. To train a perturbation generator, run the following command:
+```
+python train.py --surr_model_type <surrogate model name> --data_name <voc/coco> --train_dir <path to dataset> --eps <l_infty noise strength> --batch_size 8 --epochs 20 --save_folder <path to trained models folder> --clip_backbone <clip model type> | tee <experiment name>.txt
+```
+4. To evaluate a trained perturbation generator on multi-label classification (e.g., VOC/COCO), run the following command:
+```
+python test_multicls.py --data_name <voc/coco> --gen_path <path to trained generator file (.pth)> 
+```
+5. To evaluate a trained perturbation generator on single-label classification (e.g., ImageNet), run the following command:
+```
+python test_singlecls.py --log-dir <path to save the results> --gen_path <path to trained generator file (.pth)> 
+```
+
 ## 📌 Citation 
 If you find this work useful in your research, please cite:
 
