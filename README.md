@@ -4,7 +4,7 @@ This repository provides the **official source code** of the paper:
 
 **"Generative Attack in Complex Real-World Scenarios"**  
 Hongyu Peng, Gong Cheng, Xuxiang Sun  
-Published in *Pattern Recognition*, 2025  
+Published in *Pattern Recognition*, 2026  
 📄 [[Paper on ScienceDirect](https://doi.org/10.1016/j.patcog.2025.111893)]
 
 ## 🚀 Usage
@@ -27,12 +27,13 @@ python test_singlecls.py --log-dir <path to save the results> --gen_path <path t
 ## 📌 Citation 
 If you find this work useful in your research, please cite:
 
-@article{peng2025generative,
+@article{peng2026generative,
   title={Generative attack in complex real-world scenarios},
   author={Peng, Hongyu and Cheng, Gong and Sun, Xuxiang},
   journal={Pattern Recognition},
-  pages={111893},
-  year={2025}
+  volume = {169},
+  pages = {111893},
+  year = {2026}
 }
 
 ## 🧠 Acknowledgement
