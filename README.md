@@ -29,12 +29,14 @@ python test_singlecls.py --log-dir <path to save the results> --gen_path <path t
 ```
 
 ## 📌 Citation 
+
 If you find this work useful in your research, please cite:
 
+```bibtex
 @article{peng2026generative,
-  title={Generative attack in complex real-world scenarios},
-  author={Peng, Hongyu and Cheng, Gong and Sun, Xuxiang},
-  journal={Pattern Recognition},
+  title = {Generative attack in complex real-world scenarios},
+  author = {Peng, Hongyu and Cheng, Gong and Sun, Xuxiang},
+  journal = {Pattern Recognition},
   volume = {169},
   pages = {111893},
   year = {2026}
