@@ -7,6 +7,10 @@ Hongyu Peng, Gong Cheng, Xuxiang Sun
 Published in *Pattern Recognition*, 2026  
 📄 [[Paper on ScienceDirect](https://doi.org/10.1016/j.patcog.2025.111893)]
 
+<p align="center"> 
+  <img src="gacrs.png" width="100%" alt="GACRS"> 
+</p>
+
 ## 🚀 Usage
 
 1. Download the necessary pretrained models from [here](https://drive.google.com/drive/folders/1pmsNESi4ofKGJw19yPZNHeRx9aGxxNUg?usp=sharing) and place them in ```classifer_models``` folders.
